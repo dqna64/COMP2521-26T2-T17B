@@ -16,7 +16,7 @@ struct node {
 };
 
 struct list {
-    struct node *head;  // 0x642
+    struct node *head; // 0x642
     int length;
     struct node *tail;
     //...
@@ -34,11 +34,13 @@ int listLength(struct node *headNode);
 
 int listLengthContainer(struct list *linkedList) {
     // TODO
+    return 0;
 }
 
 int listLength(struct node *headNode) {
     // 1 -> 2 -> 3 -> X
     // TODO
+    return 0;
 }
 
 int main() {

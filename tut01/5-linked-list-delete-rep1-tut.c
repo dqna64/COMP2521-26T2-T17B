@@ -25,6 +25,7 @@ void printList(struct node *head);
 
 struct node *listDelete(struct node *list, int value) {
     // TODO
+    return NULL;
 }
 
 int main(void) {

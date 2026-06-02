@@ -11,7 +11,7 @@ struct node {
 };
 
 struct list {
-    struct node *head;  // NULL
+    struct node *head; // NULL
     int length;
     char *metadata;
 };
@@ -31,6 +31,7 @@ void listContainerDelete(struct list *list, int value) {
 
 struct node *listDelete(struct node *headNode, int value) {
     // TODO
+    return NULL;
 }
 
 int main(void) {

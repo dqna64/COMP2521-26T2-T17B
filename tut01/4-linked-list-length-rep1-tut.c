@@ -27,6 +27,7 @@ struct node *appendVal(struct node *head, int val);
 
 int listLength(struct node *headNode) {
     // TODO
+    return 0;
 }
 
 int main() {
