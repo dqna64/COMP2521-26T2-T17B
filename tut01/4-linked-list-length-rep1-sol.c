@@ -22,6 +22,8 @@ struct node *createNode(int val);
 struct node *appendVal(struct node *head, int val);
 
 int listLength(struct node *headNode) {
+    // 0x74    0x78            curr
+    // 1 ->    2 ->      3 -> NULL
     int length = 0;
     struct node *curr = headNode;
     while (curr != NULL) {
