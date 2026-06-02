@@ -1,4 +1,4 @@
-# COMP2521 26T1 T17A Tutorial
+# COMP2521 26T2 T17B Tutorial
 
 Code, whiteboards, images etc from our weekly tutorials.
 
