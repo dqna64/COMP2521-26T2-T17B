@@ -11,6 +11,8 @@
 bool isPalindrome(char *s) {
     // TODO
     return false;
+    // After implementing, evaluate time complexity
+    // O(x)
 }
 
 int main(int argc, char *argv[]) {
