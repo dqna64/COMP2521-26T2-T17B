@@ -12,17 +12,17 @@
 /**
  * Recursive function to delete the first occurence of a value in a linked list.
  */
-struct node *listDelete(struct node *l, int value) {
-    if (l == NULL) {
-        return l;
+struct node *listDelete(struct node *n, int value) {
+    if (n == NULL) {
+        return n;
     }
-    if (value == l->value) {
-        struct node *subList = l->next;
-        free(l);
+    if (value == n->value) {
+        struct node *subList = n->next;
+        free(n);
         return subList;
     } else {
-        l->next = listDelete(l->next, value);
-        return l;
+        n->next = listDelete(n->next, value);
+        return n;
     }
 }
 
