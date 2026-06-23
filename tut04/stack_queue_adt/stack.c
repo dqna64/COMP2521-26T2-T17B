@@ -27,9 +27,7 @@ Stack StackNew(void) {
 }
 
 // Frees memory allocated to the stack
-void StackFree(Stack s) {
-    free(s);
-}
+void StackFree(Stack s) { free(s); }
 
 // Pushes an element onto the stack
 void StackPush(Stack s, int elem) {
@@ -53,7 +51,7 @@ int StackPop(Stack s) {
 // Returns the element at the top of the stack without removing it
 int StackTop(Stack s) {
     if (!StackIsEmpty(s)) {
-        return s->data[s->size-1];
+        return s->data[s->size - 1];
     } else {
         printf("Stack is empty. Cannot retrieve the top element.\n");
         exit(EXIT_FAILURE);

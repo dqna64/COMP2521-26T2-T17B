@@ -10,24 +10,7 @@
  */
 
 int bstNodeLevel(TreeNode t, int key) {
-    if (t == NULL) {
-        return -1;
-    }
-    if (t->value == key) {
-        return 0;
-    } else if (t->value > key) {
-        int level = bstNodeLevel(t->left, key);
-        if (level == -1) { 
-            return -1;
-        }
-        return level + 1;
-    } else if (t->value < key) {
-        int level = bstNodeLevel(t->right, key);
-        if (level == -1) { 
-            return -1;
-        }
-        return level + 1;
-    }
+    // TODO
 }
 
 int main(void) {
@@ -44,14 +27,14 @@ int main(void) {
     bstShow(tree);
 
     int result = bstNodeLevel(tree, 5);
-    printf("level of 5: %d\n", result);  // should be 2
+    printf("level of 5: %d\n", result); // should be 2
 
     int result2 = bstNodeLevel(tree, 4);
-    printf("level of 4: %d\n", result2);  // should be 3
+    printf("level of 4: %d\n", result2); // should be 3
 
     int result3 = bstNodeLevel(tree, 7);
-    printf("level of 7: %d\n", result3);  // should be 0
+    printf("level of 7: %d\n", result3); // should be 0
 
     int result4 = bstNodeLevel(tree, 17);
-    printf("level of 17: %d\n", result4);  // should be -1
+    printf("level of 17: %d\n", result4); // should be -1
 }
