@@ -29,6 +29,8 @@ void QueueEnqueue(Queue q, int item) {
  */
 int QueueDequeue(Queue q) {
     // TODO
+
+    return 0;
 }
 
 void QueueFree(Queue q) {

@@ -11,6 +11,8 @@
 
 int bstNodeLevel(TreeNode t, int key) {
     // TODO
+
+    return 0;
 }
 
 int main(void) {

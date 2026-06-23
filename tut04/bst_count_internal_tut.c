@@ -11,6 +11,8 @@
 
 int bstCountInternal(struct node *t) {
     // TODO
+
+    return 0;
 }
 
 int main(void) {
@@ -26,5 +28,5 @@ int main(void) {
     bstShow(tree);
 
     int result = bstCountInternal(tree);
-    printf("number of internal nodes: %d\n", result);  // should be 4
+    printf("number of internal nodes: %d\n", result); // should be 4
 }

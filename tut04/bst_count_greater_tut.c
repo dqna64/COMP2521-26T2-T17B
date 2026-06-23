@@ -11,6 +11,8 @@
 
 int bstCountGreater(struct node *t, int val) {
     // TODO
+
+    return 0;
 }
 
 int main(void) {

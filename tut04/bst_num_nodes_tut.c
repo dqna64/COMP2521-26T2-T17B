@@ -11,6 +11,8 @@
 
 int bstNumNodes(struct node *t) {
     // TODO
+
+    return 0;
 }
 
 int main(void) {
@@ -23,5 +25,5 @@ int main(void) {
     bstShow(tree);
 
     int numOddNodes = bstNumNodes(tree);
-    printf("Number of odd nodes in BST: %d\n", numOddNodes);  // should be 3
+    printf("Number of odd nodes in BST: %d\n", numOddNodes); // should be 3
 }
